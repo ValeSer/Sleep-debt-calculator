@@ -5,3 +5,5 @@ const getSleepHours = day => {
         break;
       }
 };
+
+console.log(getSleepHours('monday'));
