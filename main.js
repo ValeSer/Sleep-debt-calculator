@@ -42,3 +42,6 @@ const getSleepHours = day => {
     const idealHours = 8 
     return idealHours * 7;
   }
+
+console.log(getActualSleepHours());
+console.log(getIdealSleepHours());
