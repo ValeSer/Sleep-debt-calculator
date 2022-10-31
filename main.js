@@ -28,4 +28,6 @@ const getSleepHours = day => {
   };
   
 
-console.log(getSleepHours('not sure'));
+const getActualSleepHours = () => {
+
+};
