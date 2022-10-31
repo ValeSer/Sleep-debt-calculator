@@ -21,8 +21,11 @@ const getSleepHours = day => {
       case 'saturday':
         return 10;
         break;
+        default:
+      return 'invalid';
+      break;
     }
   };
   
 
-console.log(getSleepHours('tuesday'));
+console.log(getSleepHours('not sure'));
