@@ -43,8 +43,9 @@ const calculateSleepDebt = () => {
     } else if (actualSleepHours > idealSleepHours) {
       console.log(`You slept ${actualSleepHours-idealSleepHours} hours more than you needed.`);
     } else {
-      console.log('You should get some rest.');
+      console.log(`You should get some rest, as your sleep debt is: ${idealSleepHours-actualSleepHours} hours.`);
     }
   };
   
   calculateSleepDebt();
+    
