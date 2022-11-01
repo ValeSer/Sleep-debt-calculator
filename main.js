@@ -32,10 +32,8 @@ const getSleepHours = day => {
 
   const getActualSleepHours = () => 12 + 5 + 6 + 6 + 7 + 7 + 10;
 
-  const getIdealSleepHours = () => {
-    const idealHours = 8 
-    return idealHours * 7;
-  }
+  const getIdealSleepHours = idealHours =>
+idealHours * 7;
 
 console.log(getActualSleepHours());
 console.log(getIdealSleepHours());
