@@ -27,6 +27,11 @@ const getSleepHours = day => {
   + getSleepHours('friday')
   + getSleepHours ('saturday');
 
+
+  //Another way to make the same exsercise
+
+  const getActualSleepHours = () => 12 + 5 + 6 + 6 + 7 + 7 + 10;
+
   const getIdealSleepHours = () => {
     const idealHours = 8 
     return idealHours * 7;
