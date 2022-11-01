@@ -35,12 +35,9 @@ const getSleepHours = day => {
   const getIdealSleepHours = idealHours =>
 idealHours * 7;
 
-console.log(getActualSleepHours());
-console.log(getIdealSleepHours());
-
 const calculateSleepDebt = () => {
     const actualSleepHours = getActualSleepHours();
-    const idealSleepHours = getIdealSleepHours();
+    const idealSleepHours = getIdealSleepHours(5);
     if (actualSleepHours === idealSleepHours) {
       console.log(`Great! Your sleep debt is: ${idealSleepHours-actualSleepHours}, you got the perfect amount of sleep!`);
     } else if (actualSleepHours > idealSleepHours) {
@@ -51,4 +48,6 @@ const calculateSleepDebt = () => {
   };
   
   calculateSleepDebt();
+  
+  
     
