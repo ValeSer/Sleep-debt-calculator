@@ -34,3 +34,9 @@ const getSleepHours = day => {
 
 console.log(getActualSleepHours());
 console.log(getIdealSleepHours());
+
+const calculateSleepDebt = () => {
+    const actualSleepHours = getActualSleepHours();
+    const idealSleepHours = getIdealSleepHours();
+    
+  };
